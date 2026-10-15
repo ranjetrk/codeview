@@ -1,0 +1,14 @@
+{
+  "name": "codeview",
+  "version": "1.0.0",
+  "description": "A dead-simple local viewer for code, tables, Excel, Word, images, PDFs and Markdown — with global search and a Claude Code push integration.",
+  "type": "module",
+  "bin": { "codeview": "./cli.mjs" },
+  "scripts": {
+    "start": "node server.mjs",
+    "install-service": "bash install.sh"
+  },
+  "engines": { "node": ">=18" },
+  "files": ["server.mjs", "cli.mjs", "index.html", "favicon.svg", "install.sh", "uninstall.sh", "README.md"],
+  "license": "MIT"
+}

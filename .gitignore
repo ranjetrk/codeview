@@ -1,0 +1,12 @@
+# user data / runtime — not part of the product
+_backups/
+projects.json
+*.log
+
+# platform-specific ripgrep binary (install.sh provisions it per machine)
+bin/
+
+# node
+node_modules/
+npm-debug.log*
+.DS_Store
